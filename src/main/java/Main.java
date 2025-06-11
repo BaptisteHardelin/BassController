@@ -24,7 +24,7 @@ public class Main {
         float sampleRate = 44100;
         int bufferSize = 1024;
         int overlap = 0;
-        int selectedMixerIndex = 12; // Vérifie bien que c'est la Focusrite
+        int selectedMixerIndex = 12;
 
         Mixer.Info[] mixers = AudioSystem.getMixerInfo();
         Mixer mixer = AudioSystem.getMixer(mixers[selectedMixerIndex]);
